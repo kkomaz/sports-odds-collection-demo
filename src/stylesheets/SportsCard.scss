@@ -1,0 +1,17 @@
+.sports-card {
+  width: 20rem;
+
+  &__image {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+
+  &__draw {
+    margin-right: 5px;
+  }
+
+  &__see-more-odds {
+    padding: 0 !important;
+  }
+}
