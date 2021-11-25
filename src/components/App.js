@@ -17,6 +17,8 @@ function App () {
   const [activeGame, setActiveGame] = useState(null)
   const [modalShow, setModalShow] = useState(false)
 
+  console.log('hi')
+
   useEffect(() => {
     const getOdds = async () => {
       const result = await fetchOdds(activeSport)
